@@ -1,0 +1,108 @@
+@media   (min-width:0px) and (max-width:600px) {
+    .full{ 
+        /* width: 100%; */
+    }
+    .buttons {
+        display: none;
+    }
+
+    .logo {
+        font-size: 2rem;
+
+    }
+
+    .ss {
+        height: 50%;
+    }
+
+    .html {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .html div {
+        width: 100%;
+        padding-left: 30%;
+    }
+
+    .html p {
+        padding-left: 10%;
+
+    }
+
+    .full .html i {
+        font-size: 5rem;
+        margin-left: 50%;
+    }
+
+    .last {
+        height: 6cd00px;
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .empty {
+        height: 100px;
+        width: 80%;
+        display: flex;
+        font-size: 2rem;
+    }
+    .left-first {
+        height: 150px;
+        width: 80%;
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .left-first .insta {
+        margin-right: auto;
+         
+    }
+    
+}
+
+@media only screen and (max-width:1018px) {
+    .logo {
+        font-size: 1.3rem;
+
+    }
+    .full .html i {
+        font-size: 4rem;
+        margin-left: 1rem;
+
+    }
+
+    .html p {
+        font-size: 1rem;
+        margin-left: 1rem;
+
+    }
+    
+    .headline1{
+        height: 31.5%;
+    }
+    .left-first {
+        height: 150px;
+        width: 80%;
+        font-size: 3rem;
+        padding: 2rem;
+    }
+    .last {
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .empty {
+        height: 150px;
+        width: 80%;
+        display: grid;
+        place-items: center;
+        font-size: 2rem;
+    }
+}

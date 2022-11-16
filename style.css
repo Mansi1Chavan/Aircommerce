@@ -1,8 +1,208 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.nav{
-    background-color: rgb(90, 128, 205);
-    height
+
+.full {
+    height: 100%;
+    width: 80%;
+    margin-left: 20%;
+    font-family: 'Kalam', cursive;
+}
+
+.head {
+    background-color: rgb(108, 139, 176);
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    width: 80%;
+}
+
+.logo {
+    font-size: 4rem;
+    font-weight: 5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button {
+    margin-right: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.ss {
+    width: 80%;
+}
+
+.full .html i {
+    font-size: 7rem;
+    margin-left: 2rem;
+}
+
+.html {
+    display: flex;
+    width: 80%;
+}
+
+.html div {
+    width: 25%;
+}
+
+.html p {
+    display: flex;
+    padding: 1.6rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+
+.html5 {
+    background-color: rgb(209, 174, 137);
+}
+
+.html6 {
+    background-color: rgb(209, 241, 153);
+}
+
+.html7 {
+    background-color: rgb(195, 244, 230);
+}
+
+.html8 {
+    background-color: rgb(173, 169, 168);
+}
+
+.clean {
+    width: 100%;
+    display: flex;
+}
+
+.img {
+    width: 100%;
+    height: 250px;
+
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 'left right';
+    width: 80%;
+
+}
+
+.left {
+    grid: left;
+}
+
+.right {
+    grid: right;
+}
+
+.headline {
+    width: 100%;
+    background-color: rgb(184, 194, 158);
+    text-align: center;
+    text-align: justify;
+    text-justify: newspaper;
+    font-size: 1rem;
+    color: white;
+}
+
+.headline1 {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: rgb(184, 194, 158);
+    text-align: center;
+    text-align: justify;
+    text-justify: newspaper;
+    font-size: 1rem;
+    height: 32%;
+    color: white;
+}
+
+
+
+
+
+
+
+.last {
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+grid-template-areas: 'first second third';
+    height: 250px;
+    width: 80%;
+}
+
+.head2 {
+    grid: first;
+    background-color: rgb(184, 194, 158);
+    text-align: center;
+    text-align: justify;
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(173, 169, 168);
+    ;
+}
+
+.head3 {
+grid: second;
+    background-color: rgb(211, 234, 150);
+    text-align: center;
+    text-align: justify;
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+
+}
+
+.head4 {
+grid: third;
+    background-color: rgb(151, 186, 215);
+    text-align: center;
+    text-align: justify;
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+}
+
+.last h3 {
+    text-align: center;
+    padding: 3px;
+}
+
+.left-first {
+    height: 180px;
+    width: 80%;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 3rem;
+    background-color: rgb(241, 200, 238);
+}
+
+.left-first .insta {
+    margin: auto;
+}
+
+.empty {
+    height: 150px;
+    width: 80%;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    background-color: rgb(160, 233, 249);
 }
