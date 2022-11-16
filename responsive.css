@@ -1,7 +1,5 @@
 @media   (min-width:0px) and (max-width:600px) {
-    .full{ 
-        /* width: 100%; */
-    }
+
     .buttons {
         display: none;
     }
@@ -22,21 +20,22 @@
 
     .html div {
         width: 100%;
-        padding-left: 30%;
+        padding-left: 8%;
     }
 
     .html p {
-        padding-left: 10%;
+        padding-left: 35%;
 
     }
 
     .full .html i {
-        font-size: 5rem;
-        margin-left: 50%;
+        font-size: 3rem;
+        margin-top: 2rem;
+        /* margin-left: 10%; */
     }
 
     .last {
-        height: 6cd00px;
+        /* height: 600px; */
         margin-top: 40px;
         display: flex;
         flex-wrap: wrap;
@@ -46,14 +45,15 @@
         flex-wrap: wrap;
     }
     .empty {
-        height: 100px;
+/* position:absolute;
+bottom:100px; */
         width: 80%;
-        display: flex;
+        /* display: flex; */
         font-size: 2rem;
     }
     .left-first {
         height: 150px;
-        width: 80%;
+w100p
         font-size: 3rem;
         display: flex;
         justify-content: center;
@@ -88,8 +88,8 @@
         height: 31.5%;
     }
     .left-first {
-        height: 150px;
-        width: 80%;
+        height: 100px;
+width: 100%;
         font-size: 3rem;
         padding: 2rem;
     }
@@ -100,7 +100,7 @@
     }
     .empty {
         height: 150px;
-        width: 80%;
+width: 100%;
         display: grid;
         place-items: center;
         font-size: 2rem;
